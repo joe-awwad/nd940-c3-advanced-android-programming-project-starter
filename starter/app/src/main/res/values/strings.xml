@@ -1,14 +1,45 @@
 <resources>
-    <string name="app_name">ND940C3-Project</string>
+    <string name="app_name">LoadApp</string>
     <string name="app_description">Download files from Internet</string>
     <string name="action_settings">Settings</string>
 
+    <!-- RadioGroup choices -->
+    <string name="glide_choice">Glide - Image Loading Library by BumpTech</string>
+    <string name="load_app_choice">Load App - Current repository by Udacity</string>
+    <string name="retrofit_choice">Retrofit - Type-safe HTTP client for Android and Java by Square, Inc</string>
 
-    <string name="notification_title">Udacity: Android Kotlin Nanodegree </string>
-    <string name="notification_description">The Project 3 repository is downloaded</string>
-    <string name="notification_button">See changes</string>
-
-    <string name="button_name">Click me</string>
-    <string name="button_loading">We are loading </string>
+    <!-- Download Button -->
+    <string name="button_name">Download</string>
+    <string name="button_loading">Downloading…</string>
     <string name="title_activity_detail">DetailActivity</string>
+    <string name="download_button">Download button</string>
+
+    <!-- Toast notification -->
+    <string name="invalid_download_selection">Please select the file to download</string>
+
+    <!-- Notifications -->
+    <string name="notification_description">Download complete</string>
+
+    <string name="load_app_notification_title">LoadApp Starter Repository</string>
+    <string name="glide_notification_title">Glide</string>
+    <string name="retrofit_notification_title">Retrofit</string>
+
+    <string name="notification_details_button">Check details</string>
+
+    <!-- Channel -->
+    <string name="default_channel_id">default_app_channel</string>
+    <string name="default_channel_name">LoadApp</string>
+    <string name="default_channel_description">Receive notifications from LoadApp</string>
+
+    <!-- Download details -->
+    <string name="download_item">Download:</string>
+    <string name="status">Status:</string>
+    <string name="ok">OK</string>
+
+    <string name="success">Success</string>
+    <string name="fail">Fail</string>
+    <string name="more_details">More details</string>
+    <string name="less_details">Less details</string>
+    <string name="description">Description</string>
+    <string name="file_size">File size</string>
 </resources>
