@@ -59,6 +59,11 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    override fun onPause() {
+        super.onPause()
+        unregisterReceiver(receiver)
+    }
+
     private fun download() {
         if (downloadRequest.isValid) {
 
