@@ -6,6 +6,7 @@ import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import android.net.Uri
+import android.os.Build
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -53,7 +54,9 @@ class MainActivity : AppCompatActivity() {
             download()
         }
 
-        createDefaultNotificationChannel(applicationContext)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            createDefaultNotificationChannel(applicationContext)
+        }
     }
 
     private fun download() {
